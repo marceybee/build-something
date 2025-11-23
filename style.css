@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    background-color: #d3ff99;
+}
+li {
+    list-style: none;
+    text-align: right;
+}
+ul {
+    display: inline-block;
+    padding: 15px 15px 15px 0px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.button {
+    color: red;
+}
+.logo {
+    height: 10vh;
+    float: left;
+}
+.header-image {
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+}
+.column {
+    flex: 1;
+    padding: 15px;
+    background-color: #ebeee8;
+    border: 1px solid steelblue;
+}
+
